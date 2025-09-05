@@ -1,0 +1,13 @@
+.jumbotron {
+    min-height: 200px;
+    background-image: url(https://img.etimg.com/thumb/width-640,height-480,imgsize-189125,resizemode-1,msid-68962645/wealth/stock-market-hitting-new-highs-3-value-stocks-to-invest-in-now/stock-getty.jpg);
+}
+
+.Vision-Mission{
+    background-color: lavender;
+}
+
+.disclamer{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(225deg, #FFDEE9 0%, #B5FFFC 100%);
+}

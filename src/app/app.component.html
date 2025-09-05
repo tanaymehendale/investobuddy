@@ -1,0 +1,54 @@
+<!----<h1>This is the Investobuddy Webapp</h1> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home">Investobuddy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home/">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="process/">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about/">About Us</a>
+        </li>
+      </ul>
+      <script> 
+        $( '.navbarNav .navbar-nav a' ).on('click',function () { 
+              $( '.navbarNav .navbar-nav' ).find( 'li.active' ) 
+              .removeClass( 'active' ); 
+              $( this ).parent( 'li' ).addClass( 'active' ); 
+          }); 
+      </script>
+    </div>
+  </nav>
+  
+<router-outlet></router-outlet>
+
+<!-- Footer -->
+<footer class="page-footer font-small">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-sm-center">
+
+        <!-- Content -->
+        <h5 class="text-center">Contact Us</h5>
+        <address>
+          501, Bharatiya Vidya Bhavans Sardar Patel Institute of Technology,<br>
+          Munshi Nagar, Andheri West,<br>
+          Mumbai - 400058<br>
+          <abbr title="Phone">P:</abbr> (91)-(022)-26707440, 26287250
+        </address>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> Investobuddy</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
